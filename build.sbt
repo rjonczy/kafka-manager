@@ -19,7 +19,6 @@ assemblyMergeStrategy in assembly := {
 }
 
 libraryDependencies ++= Seq(
-  "org.scala-lang" % "scala-library" % "2.10.5",
   "com.typesafe.akka" %% "akka-actor" % "2.3.14",
   "com.typesafe.akka" %% "akka-slf4j" % "2.3.14",
   "com.google.code.findbugs" % "jsr305" % "2.0.1",
